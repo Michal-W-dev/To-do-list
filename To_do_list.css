@@ -1,0 +1,16 @@
+body {
+	background: white;
+	font-family: Roboto;
+}
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+.container {
+	background: #f7f7f7;
+	box-shadow: inset 0 0 2px SlateBlue, 0 0 3px SlateBlue;
+}
+
+input[type = 'text'] {
+	display: none;
+}
