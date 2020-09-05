@@ -14,3 +14,71 @@ body {
 input[type = 'text'] {
 	display: none;
 }
+div.container {
+	max-width: 400px;
+	margin: 6% auto;
+	/* border: 1px solid black; */
+}
+ul {
+	list-style-type: none;
+}
+h1.header {
+	text-align: center;
+	margin: 40px 0;
+	font-weight: normal;
+}
+i.plus.icon {
+	float: right;
+}
+i.plus.icon:hover {
+	font-weight: 900;
+	font-size: 1.7rem;
+	color: lavender;
+}
+
+input {
+	line-height: 45px;
+	width: 100%;
+	padding: 0 20px;
+	border: 4px solid white;
+	box-sizing: border-box;
+	color: SlateBlue;
+}
+input:focus {
+	border: 4px solid SlateBlue;
+	outline: none;
+}
+/* box-shadow: inset 0 0 3px blue; */
+h1.toDo_header {
+	padding: 8px 20px;
+	margin: 0;
+	background: SlateBlue;
+	color: white;
+	font-weight: normal;
+}
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+li {
+	line-height: 40px;
+}
+li:nth-child(odd) {
+	background: Lavender;
+}
+span.text {
+	padding: 0 10px;
+}
+span.bin {
+	display: inline-block;
+	width: 0px;
+	transition: width 0.3s linear;
+	text-align: center;
+	background: coral;
+	color: white;
+	opacity: 0;
+}
+li:hover span {
+	width: 40px;
+	opacity: 1;
+}

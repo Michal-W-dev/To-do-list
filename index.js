@@ -10,7 +10,7 @@ $('ul').on('click', 'span.bin', function(event) {
 	// (this) - only 1 span, (parent), remove li
 });
 $("input[type = 'text']").keypress(function(event) {
-	console.log('you hit enter');
+	// console.log('you hit ENTER');
 	if (event.which === 13) {
 		var text = $(this).val();
 		$('ul').append(
