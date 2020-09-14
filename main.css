@@ -1,7 +1,11 @@
 body {
-	background: white;
+	background: linear-gradient(CornflowerBlue, rgba(0, 0, 0, 0) 90%),
+		linear-gradient(-45deg, LightSeaGreen 25%, indigo 75%);
 	font-family: Roboto;
+	height: 100vh;
+	padding-top: 8%;
 }
+/* LightSteelBlue */ /* DarkTurquoise */
 .completed {
 	color: gray;
 	text-decoration: line-through;
@@ -16,17 +20,20 @@ input[type = 'text'] {
 }
 div.container {
 	max-width: 400px;
-	margin: 6% auto;
+	margin: 0 auto;
 	/* border: 1px solid black; */
 }
 ul {
 	list-style-type: none;
 }
-h1.header {
+h1 {
+	margin-top: 400px;
+}
+/* h1.header {
 	text-align: center;
 	margin: 40px 0;
 	font-weight: normal;
-}
+} */
 i.plus.icon {
 	float: right;
 }
